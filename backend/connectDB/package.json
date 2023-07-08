@@ -1,0 +1,21 @@
+{
+  "name": "connectdb",
+  "version": "1.0.0",
+  "main": "startServer.js",
+  "scripts": {
+    "start": "nodemon src/startServer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "mysql8": "^2.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "description": ""
+}
